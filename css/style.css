@@ -1,0 +1,408 @@
+/* Les plus Globals */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  font-family: 'Commissioner', sans-serif;
+  font-size: 1.0rem;
+  margin: 0;
+  position: relative;
+}
+
+.logo {
+  width: 15px;
+  height: 15px;
+}
+
+h2, h3, h4, h5, h6 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 500;
+  margin-bottom: 20px;
+  margin: 0;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 3.0rem;
+  margin-bottom: 42px;
+  padding-top: 50px;
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  margin: 0;
+}
+
+h2 {
+  font-size: 2.0rem;
+  margin-bottom: 25px;
+  text-decoration: none;
+  margin-top: 20px;
+}
+
+h3 {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+nav {
+  padding: 10px 0px;
+  background-color: white;
+  margin-top: 49px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.lien_footer{
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.dp_flex {
+  display: flex;
+  justify-content: space-between;
+}
+.dp_inline li{
+  display: inline-block;
+  margin-right: 20px;
+}
+.dp_inline li:last-child{
+  margin-right: 0px;
+}
+.btn {
+  padding: 10px 20px;
+  background-color: #FFFFFF;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin-bottom: 20px;
+  display: inline-block;
+  color: black;
+  text-align: center;
+  margin-left: 20px;
+}
+span{
+  font-weight: bold;
+}
+.bg_black {
+  background-color: black;
+  color: white;
+}
+.bg_grey {
+  background-color: #F2F2F2;
+  padding: 0px 0px;
+  text-align: center;
+}
+.middle_text {
+  text-align: center;
+}
+main i {
+  margin-left: 10px;
+}
+.iln_blok li{
+  display: inline-block;
+}
+
+/* Top nav */
+.top_nav {
+  background-color: black;
+  color: white;
+  padding: 13px 0px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  width: 100%;
+  border-bottom: 1px solid white;
+}
+.fr {
+  width: 30px;
+  height: 20px;
+}
+
+
+/* Navigation */
+
+.search_nav {
+  padding: 5px 10px;
+}
+/* Bandeau promotionnel */
+
+.bd_promo {
+  padding: 15px 0px;
+  background-color: #F2F2F2;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+/* Footer */
+
+footer ul {
+  list-style-type: none;
+}
+
+footer li {
+  margin-bottom: 5px;
+}
+
+footer h3{
+  margin-bottom: 10px;
+}
+
+footer h3 {
+  text-align: inherit;
+  text-decoration: underline;
+  margin-top: 20px;
+}
+footer i {
+  margin-right: 10px;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  margin-top: 55px;
+  padding-top: 50px /* ici */;
+  padding-bottom: 50px; /* et là */
+}
+.ul_rs li {
+  margin-bottom: 25px;
+}
+.mg_top{
+  margin-bottom: 20px;
+}
+
+/* Header */
+
+.btn_header {
+  padding: 10px 20px;
+  background-color: #FFFFFF;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin-bottom: 20px;
+  display: inline-block;
+  color: black;
+  text-align: center;
+  margin: 84.5px 160px;
+}
+.btn_header:hover{
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  transition: 500ms;
+  text-decoration: none;
+}
+.img_accueil {
+  width: 585px;
+  float: right;
+}
+.bg_header {
+  background-color: black;
+  color: white;
+  float: left;
+}
+
+/* Images */
+
+.img_art_nouv {
+  width: 200px;
+  height: 200px;
+}
+
+.img_art_phare {
+  height: 250px;
+  width: 320px;
+}
+
+.img_art_news {
+  width: 100%;
+}
+
+/* Nouveauté */
+
+.btn_add_shop{
+  border: 2px solid black;
+  padding: 5px 10px;
+  margin-top: 10px;
+  font-size: 12px;
+}
+.art_nouv {
+  position: relative;
+  z-index: 0;
+}
+.fav {
+  position: absolute;
+  display: flex;
+  font-size: 125%;
+  top: 25px;
+  right: 20px;
+  opacity: 0;
+}
+.size_prix{
+  font-size: 1.3rem;
+}
+.product {
+  position: relative;
+z-index: 1;
+}
+.product:hover .fav{
+  opacity: 1;
+}
+
+.add-fav {
+  transition: 500ms;
+}
+
+.add-fav:hover {
+  color: red;
+}
+
+
+/* Bandeau SHOP */
+
+.shop p {
+  margin-bottom: 20px;
+  font-weight: 700;
+  margin-top: 10px;
+}
+.shop {
+  background-color: black;
+  color: white;
+  padding: 20px 0px;
+  margin: 20px 0px;
+  margin-top: 80px;
+}
+.shop > .container {
+  width: 1170px;
+  margin: 40px auto 0 auto;
+  display: block;
+}
+
+.shop > .container > p { /* Les p enfants directs */
+  border-bottom: 1px solid rgba(255, 255, 255, 0.7); /* On rend la ligne un peu transparente */
+  font-weight: 700;
+  padding-bottom: 20px;
+}
+
+.shop > .container > p:last-of-type { /* On ne met pas de bordure sous le dernier élément */
+  border-bottom: none;
+}
+
+/* Collection Phare */
+
+.art_phare {
+  float: left;
+  margin-top: 20px;
+}
+.art_phare h3 {
+  padding: 20px 0;
+}
+.art_phare img {
+  max-width: 100%;
+}
+.art:hover{
+-webkit-transform: scale(1.1);
+transform: scale(1.1);
+transition: 500ms;
+text-decoration: none;
+}
+.mg_phare{
+  margin-bottom: 30px;
+}
+.over:hover{
+  text-decoration: none;
+}
+
+/* Bandeau marque */
+
+marquee {
+  behavior: scroll;
+  direction: left;
+}
+.bdn_marque p{
+font-size: 1.6rem;
+text-transform: uppercase;
+}
+
+.bdn_marque{
+  margin: 20px 0;
+}
+
+.marge_marquee1{
+  margin-top: 30px;
+}
+.marge_marquee2{
+  margin-bottom: 30px;
+}
+.mrg_top{
+  margin-top: 70px;
+}
+
+/* Collection new's */
+
+.art_news{
+  margin-right: 3%;
+  width: 30%
+}
+.art_news h3 {
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+
+/* Bandeau Newsletter */
+
+.bdn_news {
+  background-color: #0c1c39;
+  padding: 20px 0px;
+  margin: 50px 0px;
+  color: white;
+}
+.news_align {
+  padding: 15px 15px;
+  line-height: 26px;
+}
+
+.bdn_news input {
+  margin-bottom: 20px;
+  padding: 3px 10px;
+}
+
+.bdn_news button {
+  padding: 3px 10px;
+  margin-left: 5px;
+  margin-top: 20px;
+}
+
+/* Menu hamburger responsive */
+
+#menu-responsive{
+  display: none;
+}
+
+/* Flèche pour renvoyer au début de la page */
+
+.back-to-top {
+  bottom: 40px;
+  font-size: 2.5rem;
+  position: fixed;
+  right: 40px;
+}
+.back-to-top a {
+  color: grey;
+}

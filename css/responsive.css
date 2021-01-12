@@ -1,0 +1,110 @@
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  h2 {
+    margin-bottom: 0px;
+    margin-top: 40px;
+  }
+
+  footer h3 {
+    font-size: 1.0rem;
+  }
+
+  p, li {
+    font-size: 0.7rem;
+  }
+
+  .container {
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .dp_column {
+    flex-direction: column;
+  }
+
+  .top_nav div {
+    flex-direction: column;
+  }
+
+  .mask_smart {
+    display: none;
+  }
+
+  .bg_header {
+    float: none;
+  }
+
+  .btn_header {
+    margin: 40px 30px;
+  }
+
+  .product {
+    text-align: center;
+  }
+
+  .art_news {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+
+  .img_art_phare {
+    width: 100%;
+  }
+
+  .img_art_nouv {
+    margin-top: 20px;
+  }
+
+  #menu-responsive {
+    color: black;
+    display: block;
+  }
+
+  #menu-elements {
+    display: none;
+  }
+
+  .bdn_marque p {
+    margin-right: 150px;
+  }
+
+  .shop p {
+    padding-top: 10px;
+    margin-bottom: 0;
+  }
+
+  .footer_bottom {
+    border-top: 1px solid white;
+  }
+
+  .bdn_news input {
+    margin-bottom: 0px;
+    width: 50%;
+  }
+
+  .taille_txt_rps h3 {
+    font-size: 1.0rem;
+  }
+
+  .shop>.container {
+    width: 100%;
+  }
+
+  .dp_inline li {
+    font-size: 10px;
+  }
+
+  .btn_resp {
+    width: 40%;
+    display: block;
+    margin: auto;
+  }
+  .test{
+    align-items: center;
+  }
+}
