@@ -12,7 +12,6 @@ img {
 body {
   font-family: 'Commissioner', sans-serif;
   font-size: 1.0rem;
-  margin: 0;
   position: relative;
 }
 
@@ -24,18 +23,14 @@ body {
 h2, h3, h4, h5, h6 {
   font-family: 'Playfair Display', serif;
   font-weight: 500;
-  margin-bottom: 20px;
-  margin: 0;
 }
 
 h1 {
   font-weight: 700;
   font-size: 3.0rem;
-  margin-bottom: 42px;
   padding-top: 50px;
   text-align: center;
   font-family: 'Playfair Display', serif;
-  margin: 0;
 }
 
 h2 {
@@ -75,6 +70,9 @@ a:hover {
   margin: 0 auto;
 }
 
+.bold{
+  font-weight: bold;
+}
 .dp_flex {
   display: flex;
   justify-content: space-between;
@@ -187,6 +185,10 @@ footer {
 }
 .mg_top{
   margin-bottom: 20px;
+}
+
+.mt-h2{
+  margin-top: 50px;
 }
 
 /* Header */
@@ -331,10 +333,6 @@ text-decoration: none;
 
 /* Bandeau marque */
 
-marquee {
-  behavior: scroll;
-  direction: left;
-}
 .bdn_marque p{
 font-size: 1.6rem;
 text-transform: uppercase;

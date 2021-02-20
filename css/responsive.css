@@ -100,9 +100,10 @@
   }
 
   .btn_resp {
-    width: 40%;
+    width: 100%;
     display: block;
     margin: auto;
+    margin-top: 10px;
   }
   .test{
     align-items: center;

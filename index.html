@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="fr" dir="ltr">
 
 <head>
   <meta charset="utf-8">
@@ -45,7 +45,7 @@
       </div>
       <div class="">
         <ul class="dp_inline">
-          <li><input itemprop="query-input" class="search_nav" type="search" name="q" value="" placeholder="Recherche" autocomplete="off" aria-label="Recherche" tabindex="1" autofocus=""> </li>
+          <li><input class="search_nav" type="search" name="q" value="" placeholder="Recherche" autocomplete="off" aria-label="Recherche" tabindex="1" autofocus=""> </li>
           <li><a href="#"><i class="fas fa-user"></i></a></li>
           <li><a href="#"><i class="fas fa-shopping-bag"></i></a></li>
           <li><a href="#"><i class="fas fa-heart"></i></a></li>
@@ -64,7 +64,7 @@
   <header class="container">
     <div class="inline_header dp_flex dp_column">
       <div class="bg_header">
-        <h1>YourWatch,</br>YourWorld</h1>
+        <h1>YourWatch,<br>YourWorld</h1>
         <a href="#" class="btn_header">Découvrez la collection</a>
       </div>
       <img src="images/rolex_header.jpg" alt="Image d'accueil" class="img_accueil">
@@ -78,13 +78,13 @@
       <div class="dp_flex dp_column">
         <!-- 1er art. nouv. -->
         <div class="">
-          <article class="art_nouv">
+          <article class="art_nouv art_rolex">
             <div class="product">
               <div class="fav"><a href="#" class="add-fav"><i class="far fa-heart"></i></a></div>
-              <img src="images/rolex.jpg" alt="Photo Rolex" class="img_art_nouv">
+              <img src="images/rolex.png" alt="Photo Rolex" class="img_art_nouv">
             </div>
             <div class="middle_text">
-              <p><span>ROLEX</span></p>
+              <h4 class="bold">ROLEX</h4>
               <p>Oyster Perpetual</p>
               <p class="size_prix">5.460€</p>
               <a href="#">
@@ -95,13 +95,13 @@
         </div>
         <!-- 2eme art. nouv. -->
         <div class="">
-          <article class="art_nouv">
+          <article class="art_nouv art_citizen">
             <div class="product">
               <div class="fav"><a href="#" class="add-fav"><i class="far fa-heart"></i></a></div>
-              <img src="images/citizen.jpg" alt="Photo Citizen" class="img_art_nouv">
+              <img src="images/citizen.png" alt="Photo Citizen" class="img_art_nouv">
             </div>
             <div class="middle_text">
-              <p><span>CITIZEN</span></p>
+              <h4 class="bold">CITIZEN</h4>
               <p>Citizen Quartz</p>
               <p class="size_prix">3.210€</p>
               <a href="#">
@@ -112,13 +112,13 @@
         </div>
         <!-- 3eme art. nouv. -->
         <div class="">
-          <article class="art_nouv">
+          <article class="art_nouv art_fossil_homme">
             <div class="product">
               <div class="fav"><a href="#" class="add-fav"><i class="far fa-heart"></i></a></div>
-              <img src="images/fossil_homme.jpg" alt="Fossil Homme" class="img_art_nouv">
+              <img src="images/fossil_homme.png" alt="Fossil Homme" class="img_art_nouv">
             </div>
             <div class="middle_text">
-              <p><span>FOSSIL</span></p>
+              <h4 class="bold">FOSSIL</h4>
               <p>Fossil men's</p>
               <p class="size_prix">1.240€</p>
               <a href="#">
@@ -129,13 +129,13 @@
         </div>
         <!-- 4eme art. nouv. -->
         <div class="">
-          <article class="art_nouv">
+          <article class="art_nouv art_fossil_femme">
             <div class="product">
               <div class="fav"> <a href="#" class="add-fav"><i class="far fa-heart"></i></a></div>
-              <img src="images/fossil_femme.jpg" alt="Fossil Femme" class="img_art_nouv">
+              <img src="images/fossil_femme.png" alt="Fossil Femme" class="img_art_nouv">
             </div>
             <div class="middle_text">
-              <p><span>FOSSIL</span></p>
+              <h4 class="bold">FOSSIL</h4>
               <p>Fossil Women's</p>
               <p class="size_prix">1.140€</p>
               <a href="#">
@@ -146,21 +146,9 @@
         </div>
       </div>
     </div>
-    <!-- Bandeau SHOP -->
-    <div class="shop">
-      <div class="container">
-        <p>Contrôle qualité à 360°</p>
 
-        <p>Mouvements certifiés par des maîtres horlogers</p>
-
-        <p>Garantie d'authenticité</p>
-
-        <p>Posséder en toute confiance</p>
-
-      </div>
-    </div>
     <div class="container">
-      <h2>Collections Phares</h2>
+      <h2 class="mt-h2">Collections Phares</h2>
       <!-- 1er art. Phares -->
       <div class="dp_flex dp_column mg_phare">
 
@@ -176,7 +164,7 @@
 
         <article class="art_phare art">
           <a href="#" class="over">
-            <img src="images/montre_femme.jpg" alt="Catégorie montres femmes" class="img_art_phare">
+            <img src="images/categorie_femme.jpg" alt="Catégorie montres femmes" class="img_art_phare">
             <h3 class="bg_grey">Montres femmes</h3>
           </a>
         </article>
@@ -190,26 +178,22 @@
       </div>
     </div>
     <div class="clearfix"></div>
-    <!-- Bandeau marque -->
-    <div class=" bg_black mrg_top">
-      <hr>
-      <hr class="marge_marquee1">
-      <marquee>
-        <div class="dp_flex bdn_marque">
-          <div class="">
-            <p>Rolex</p>
-          </div>
-          <div class="">
-            <p>Citizen Quartz</p>
-          </div>
-          <div class="">
-            <p>Fossil</p>
-          </div>
-        </div>
-      </marquee>
-      <hr class="marge_marquee2">
-      <hr>
+
+    <!-- Bandeau SHOP -->
+    <div class="shop">
+      <div class="container">
+        <p>Contrôle qualité à 360°</p>
+
+        <p>Mouvements certifiés par des maîtres horlogers</p>
+
+        <p>Garantie d'authenticité</p>
+
+        <p>Posséder en toute confiance</p>
+
+      </div>
     </div>
+
+
     <div class="container">
       <!-- YourWatch New's -->
       <h2>YourWatch New's</h2>
@@ -243,6 +227,7 @@
           </div>
         </article>
       </div>
+    </div>
   </main>
   <!-- Bandeau newsletter -->
   <div class="bdn_news">
@@ -250,8 +235,9 @@
       <h3>Se mettre au goût du jour</h3>
       <p class="middle_text">Consultez les actualités, les lancements de produits, les mises à jour, etc.</p>
       <form class="middle_text" action="index.html" method="post">
-        <label for=""></label>
-        <input type="text" name="" value="E-mail" size="50" placeholder="E-mail"><button>GO</button>
+        <label for="email_user"></label>
+        <input type="text" name="E-mail" value="" size="50" placeholder="E-mail" id="email_user">
+        <button>GO</button>
       </form>
     </div>
   </div>
@@ -268,7 +254,6 @@
         <h3><i class="fas fa-history"></i> <br> Livraison et retour gratuit</h3>
       </div>
     </div>
-  </div>
   </div>
 
   <footer>
